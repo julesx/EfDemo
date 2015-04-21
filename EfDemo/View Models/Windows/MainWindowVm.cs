@@ -23,14 +23,14 @@ namespace EfDemo.View_Models.Windows
 
         public MainWindowVm()
         {
-            InitTabVms();
+            
         }
 
         #endregion
 
-        #region Private Methods     
+        #region Public Methods
 
-        private void InitTabVms()
+        public void InitTabVms()
         {
             CoursesVm = new CoursesVm();
             DepartmentsVm = new DepartmentsVm();
