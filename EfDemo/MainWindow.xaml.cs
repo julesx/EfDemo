@@ -18,6 +18,7 @@ namespace EfDemo
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
+            //this sucks. you see the main window with no UI content and the splash screen at the same time
             _mainWindowVm.InitTabVms();
         }
     }
